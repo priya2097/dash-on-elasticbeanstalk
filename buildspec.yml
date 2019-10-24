@@ -4,9 +4,6 @@ phases:
   install:
     runtime-versions:
         python: 3.7
-    commands:
-      - yum update -y
-      - yum install -y python36u python36u-libs python36u-devel python36u-pip
 artifacts:
   files:
     -  README.md
