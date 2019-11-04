@@ -7,10 +7,10 @@ app = dash.Dash()
 application = app.server
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Prodevans'),
+    html.H1(children=''),
 
     html.Div(children='''
-        This is Dash running on Elastic Beanstalk.
+        This application show success and failures of a game in different counteries
     '''),
 
     dcc.Graph(
